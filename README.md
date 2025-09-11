@@ -1,27 +1,62 @@
-# 🎨 SketchPy Image to ASCII/Art Drawer  
+# 🌐 Mini Web Development Projects  
 
-This project uses **[SketchPy](https://pypi.org/project/sketchpy/)** to create sketches from images 🖼️.  
-Just provide an image, and the script will generate a sketch-like drawing automatically ✨.  
-
----
-
-## 📂 Project Files  
-
-- `iam.py` 🐍 → Main script that takes an image and draws it using SketchPy  
-- `tempCodeRunnerFile.py` ⚙️ → Scratch/test file (contains references for SketchPy)  
-- `2023_03_26.svg` 🖌️ → Example output file (SVG drawing)  
+A collection of **mini web development projects** built using **HTML, CSS, and JavaScript** 🚀.  
+This repository showcases my learning journey, experiments, and creative implementations in frontend development.  
 
 ---
 
-## 🚀 How to Run  
+## 📂 Project List  
 
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/your-username/sketchpy-drawing.git
-   cd sketchpy-drawing
+✅ Each project is stored in its own folder for easy navigation.  
+Some examples include:  
 
+- 🎨 **Color Picker App** – Simple color generator tool  
+- ⏰ **Digital Clock** – A live digital clock using JS  
+- 📝 **To-Do List** – Add, delete, and manage tasks  
+- 🎶 **Music Player** – Play, pause, and control tracks  
+- 🎮 **Mini Games** – Fun interactive browser-based games  
 
-<!---
-DiwakarDsingh/DiwakarDsingh is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+(…and many more 🔥)  
+
+---
+
+## 🛠️ Tech Stack  
+
+- **HTML5** 🏗️  
+- **CSS3** 🎨  
+- **JavaScript (ES6+)** ⚡  
+
+---
+
+## 🤝 Contributing  
+
+Want to improve or add new projects?  
+
+1. 🍴 Fork this repository  
+2. 🌿 Create a new branch (`git checkout -b feature-branch`)  
+3. 💻 Make your changes  
+4. 📬 Commit and push (`git push origin feature-branch`)  
+5. 🔥 Open a Pull Request  
+
+---
+
+## 🎯 Why this repo?  
+
+This repo serves as:  
+
+- 💡 A **learning playground** for web development  
+- 📘 A **reference** for beginners looking for project ideas  
+- 🏆 A way to **practice problem-solving** with small, creative apps  
+
+---
+
+## 📌 Author  
+
+👤 **Diwakar Singh**  
+- 🌍 [Portfolio Website](https://itsdiwakarsingh.netlify.app)  
+- 🐙 [GitHub](https://github.com/itsdiwakarsingh)  
+- 💼 [LinkedIn](https://linkedin.com/in/itsdiwakarsingh)  
+
+---
+
+⭐ If you like this repo, don’t forget to **star it** and share with others! 🚀  
