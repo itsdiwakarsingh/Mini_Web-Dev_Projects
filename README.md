@@ -21,9 +21,9 @@ Here are some of the projects included in this repository:
 | 🎨 **Only_CSS**           | UI/animations made purely with CSS. |
 | 🌀 **3D Animation**       | A small WebGL/3D visual effect demo Adidas sneakers 3D Card. |
 | 🌍 **GO out with me**     | (Cute themed interactive page to ask her for date). |
-| ✈️ **TRAVELLY**           | (# 1st websiteA travel landing page project). |
-| 💎 **ELENA**              | (# 2nd websiteLanding page / portfolio style project). |
-| 📑 **Protifuly**          | (# 3rd websitepersonal portfolio project). |
+| ✈️ **TRAVELLY**           | **1st Website**(A travel landing page project). |
+| 💎 **ELENA**              | **2nd Website**(Landing page / portfolio style project). |
+| 📑 **Protifuly**          | **3rd Website**(websitepersonal portfolio project). |
 
 ---
 
