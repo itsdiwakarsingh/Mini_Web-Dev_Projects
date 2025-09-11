@@ -17,7 +17,7 @@ Here are some of the projects included in this repository:
 | 🎧 **Apple Ear Bud**      | A product showcase landing page for earbuds #DevelopedByEd. |
 | 🌌 **Matrix Effect**      | A CSS + JS animation mimicking the iconic *Matrix* rain. |
 | 👁️ **Mouse Eye**         | A fun project where eyes follow the cursor. |
-| 🚭 **Say No to Smoking**  | An awareness website design using css. |
+| 🚭 **Say No to Smoking**     | An awareness website design using css. |
 | 🎨 **Only_CSS**           | UI/animations made purely with CSS. |
 | 🌀 **3D Animation**       | A small WebGL/3D visual effect demo Adidas sneakers 3D Card. |
 | 🌍 **GO out with me**     | (Cute themed interactive page to ask her for date). |
