@@ -70,12 +70,11 @@ To contribute:
   
   5.🔃 Open a Pull Request
 
+
 ---
 
 ## 🎯 Badges
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](#license)  
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=itsdiwakarsingh&layout=compact&theme=onedark)](#github-stats)  
-[![GitHub stars](https://img.shields.io/github/stars/itsdiwakarsingh/Mini_Web-Dev_Projects.svg?style=social)](https://github.com/itsdiwakarsingh/Mini_Web-Dev_Projects/stargazers)  
 
 ---
