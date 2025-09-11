@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+
+  font-family: "Reggae One", cursive;
+  font-family: "Rubik", sans-serif;
+}
+#Logo {
+  font-family: "Source Code Pro", monospace;
+
+  font-size: 20px;
+}
+header {
+  position: fixed;
+}
+a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-bottom: 8rem;
+}
+h2 {
+  margin-right: 37rem;
+  margin-left: 20px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+li {
+  display: flex;
+  margin: 1.7rem;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 14px;
+}
+.shop {
+  margin-left: 18rem;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+#h4 {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+}
+header{
+  
+ 
+
+  font-family: 'Quicksand', sans-serif;
+}
+body{
+  
+  font-family: 'Quicksand', sans-serif;
+}
+button {
+  margin: 45rem 1rem;
+  margin-bottom: 0rem;
+  margin-left: 50rem;
+  padding: 1rem 7rem;
+  border-radius: 4rem;
+  border: none;
+  color: black;
+  cursor: pointer;
+}
+#lol {
+  color: white;
+  background: rgb(251, 0, 0);
+  margin-bottom: auto;
+  margin-left: 1rem;
+}
+.hero {
+  background-image: url(/img/ms-main-hero-desktop.jpg);
+  min-height: 110vh;
+  background-position: center;
+  background-size: cover;
+}
+.next {
+  background-image: url(/img/Desktop-ModelY.jpg);
+  min-height: 110vh;
+  background-position: center;
+  background-size: cover;
+}
+#next2 {
+  background-image: url(/img/Desktop-Model3.jpg);
+  min-height: 110vh;
+  background-position: center;
+  background-size: cover;
+}
+#next3 {
+  background-image: url(/img/MX-Social.jpg);
+  min-height: 110vh;
+  background-position: center;
+  background-size: cover;
+}
+#next4 {
+  background-image: url(/img/D_solarpanels_hero_2880x1800_20201120.jpg);
+  min-height: 110vh;
+  background-position: center;
+  background-size: cover;
+}
+#next5 {
+  min-height: 110vh;
+  background-image: url(/img/solar-roof_design_D.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#next6 {
+  min-height: 100vh;
+  background-image: url(/img/download\ \(3\).jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+footer {
+  display: flex;
+  margin: 1.5rem;
+  margin-bottom: 2.5rem;
+  margin-left: 40rem;
+  font-size: 15px;
+}
