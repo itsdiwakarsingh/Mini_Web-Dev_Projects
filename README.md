@@ -1,62 +1,52 @@
-# 🌐 Mini Web Development Projects  
+# 🌟 Mini Web Dev Projects  
 
-A collection of **mini web development projects** built using **HTML, CSS, and JavaScript** 🚀.  
-This repository showcases my learning journey, experiments, and creative implementations in frontend development.  
+A collection of **mini web development projects** built using HTML, CSS, and JavaScript.  
+This repo is like my creative playground 🎨 for practicing frontend concepts, UI design, and small interactive features.  
 
 ---
 
-## 📂 Project List  
+## 📂 Projects  
 
-✅ Each project is stored in its own folder for easy navigation.  
-Some examples include:  
+Here are some of the projects included in this repository:  
 
-- 🎨 **Color Picker App** – Simple color generator tool  
-- ⏰ **Digital Clock** – A live digital clock using JS  
-- 📝 **To-Do List** – Add, delete, and manage tasks  
-- 🎶 **Music Player** – Play, pause, and control tracks  
-- 🎮 **Mini Games** – Fun interactive browser-based games  
-
-(…and many more 🔥)  
+| 🚀 Project Name          | 📖 Description |
+|--------------------------|----------------|
+| 🎬 **Movie Review**      | A simple website to add and view movie reviews. |
+| 💻 **Portfolio_Fullstack** | A full-stack personal portfolio project. |
+| 🏋️ **Fitness_web**       | A fitness themed responsive website. |
+| ✈️ **TRAVELLY**           | A travel landing page project. |
+| 🎧 **Apple Ear Bud**      | A product showcase landing page for earbuds. |
+| 🌌 **Matrix Effect**      | A CSS + JS animation mimicking the iconic *Matrix* rain. |
+| 👁️ **Mouse Eye**         | A fun project where eyes follow the cursor. |
+| 🚭 **Say No to Smoking**  | An awareness website design. |
+| 🎨 **Only_CSS**           | UI/animations made purely with CSS. |
+| 💎 **ELENA**              | (Landing page / portfolio style project). |
+| 🌍 **GO out with me**     | (Travel/event themed interactive page). |
+| 🌀 **3D Animation**       | A small WebGL/3D visual effect demo. |
+| 📑 **Protifuly**          | Another portfolio-style experiment. |
 
 ---
 
 ## 🛠️ Tech Stack  
 
-- **HTML5** 🏗️  
-- **CSS3** 🎨  
-- **JavaScript (ES6+)** ⚡  
+- 🌐 **HTML5**  
+- 🎨 **CSS3 / SCSS**  
+- ⚡ **JavaScript (ES6+)**  
+- 📱 Responsive Design  
+- ✨ Animations & Transitions  
 
 ---
 
-## 🤝 Contributing  
+## 🚀 Getting Started  
 
-Want to improve or add new projects?  
+To run a project locally:  
 
-1. 🍴 Fork this repository  
-2. 🌿 Create a new branch (`git checkout -b feature-branch`)  
-3. 💻 Make your changes  
-4. 📬 Commit and push (`git push origin feature-branch`)  
-5. 🔥 Open a Pull Request  
+```bash
+# Clone the repo
+git clone https://github.com/itsdiwakarsingh/Mini_Web-Dev_Projects.git
 
----
+# Open the project folder
+cd Mini_Web-Dev_Projects/<project-folder-name>
 
-## 🎯 Why this repo?  
-
-This repo serves as:  
-
-- 💡 A **learning playground** for web development  
-- 📘 A **reference** for beginners looking for project ideas  
-- 🏆 A way to **practice problem-solving** with small, creative apps  
-
----
-
-## 📌 Author  
-
-👤 **Diwakar Singh**  
-- 🌍 [Portfolio Website](https://itsdiwakarsingh.netlify.app)  
-- 🐙 [GitHub](https://github.com/itsdiwakarsingh)  
-- 💼 [LinkedIn](https://linkedin.com/in/itsdiwakarsingh)  
-
----
-
-⭐ If you like this repo, don’t forget to **star it** and share with others! 🚀  
+# Run it!
+Open index.html in your browser 🚀
