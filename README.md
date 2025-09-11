@@ -51,21 +51,7 @@ cd Mini_Web-Dev_Projects/<project-folder-name>
 # Run it!
 Open index.html in your browser 🚀
 ```
----
 
-# 📂 Folder Structure
-```
-opencv_projects/
-├── .vscode/
-├── Face/
-│   └── face_mesh.py
-├── Hand/
-│   ├── hand_pose.py
-│   ├── virtual_painter.py
-│   └── virtual_mouse.py
-├── README.md
-└── requirements.txt
-```
 ---
 
 # 🤝 Contributing
@@ -83,3 +69,13 @@ To contribute:
   4.🚀 Push (git push origin feature-name)
   
   5.🔃 Open a Pull Request
+
+---
+
+## 🎯 Badges
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](#license)  
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=itsdiwakarsingh&layout=compact&theme=onedark)](#github-stats)  
+[![GitHub stars](https://img.shields.io/github/stars/itsdiwakarsingh/Mini_Web-Dev_Projects.svg?style=social)](https://github.com/itsdiwakarsingh/Mini_Web-Dev_Projects/stargazers)  
+
+---
