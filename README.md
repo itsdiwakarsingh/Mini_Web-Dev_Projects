@@ -11,19 +11,19 @@ Here are some of the projects included in this repository:
 
 | 🚀 Project Name          | 📖 Description |
 |--------------------------|----------------|
-| 🎬 **Movie Review**      | A simple website to add and view movie reviews. |
-| 💻 **Portfolio_Fullstack** | A full-stack personal portfolio project. |
+| 🎬 **Movie Review**      | A simple website to add and view movie reviews and Login-auth using MongoDB. |
+| 💻 **Portfolio_Fullstack** | A full-stack Another portfolio project-style experiment. |
 | 🏋️ **Fitness_web**       | A fitness themed responsive website. |
-| ✈️ **TRAVELLY**           | A travel landing page project. |
-| 🎧 **Apple Ear Bud**      | A product showcase landing page for earbuds. |
+| 🎧 **Apple Ear Bud**      | A product showcase landing page for earbuds #DevelopedByEd. |
 | 🌌 **Matrix Effect**      | A CSS + JS animation mimicking the iconic *Matrix* rain. |
 | 👁️ **Mouse Eye**         | A fun project where eyes follow the cursor. |
-| 🚭 **Say No to Smoking**  | An awareness website design. |
+| 🚭 **Say No to Smoking**  | An awareness website design using css. |
 | 🎨 **Only_CSS**           | UI/animations made purely with CSS. |
-| 💎 **ELENA**              | (Landing page / portfolio style project). |
-| 🌍 **GO out with me**     | (Travel/event themed interactive page). |
-| 🌀 **3D Animation**       | A small WebGL/3D visual effect demo. |
-| 📑 **Protifuly**          | Another portfolio-style experiment. |
+| 🌀 **3D Animation**       | A small WebGL/3D visual effect demo Adidas sneakers 3D Card. |
+| 🌍 **GO out with me**     | (Cute themed interactive page to ask her for date). |
+| ✈️ **TRAVELLY**           | (# 1st websiteA travel landing page project). |
+| 💎 **ELENA**              | (# 2nd websiteLanding page / portfolio style project). |
+| 📑 **Protifuly**          | (# 3rd websitepersonal portfolio project). |
 
 ---
 
@@ -51,25 +51,6 @@ cd Mini_Web-Dev_Projects/<project-folder-name>
 # Run it!
 Open index.html in your browser 🚀
 ```
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome! 🎉
-
-To contribute:
-
-  1.🍴 Fork this repo
-  
-  2.🌱 Create a new branch (git checkout -b feature-name)
-  
-  3.🛠 Commit your changes (git commit -m "Added feature")
-  
-  4.🚀 Push (git push origin feature-name)
-  
-  5.🔃 Open a Pull Request
-
 
 ---
 
