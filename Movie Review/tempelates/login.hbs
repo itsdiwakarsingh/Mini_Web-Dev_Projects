@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/login.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="Container">
+      <section class="form-section">
+        <h2 class="word">Log In</h2>
+        <form id="main" action="/login" method="post" className="login-form">
+          <li id="form">
+            <input type="text" name="name" placeholder="Name" id="name" />
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              id="pass"
+            />
+            <input class="button" type="submit" />
+          </li>
+        </form>
+
+        <a class="king" href="/signup">Make a new account</a>
+      </section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+#Container {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  margin: -20px 0 50px;
+}
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+#pass {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.form-section {
+  min-height: 40vh;
+  margin-top: 1rem;
+
+  form {
+    padding: 3rem 5rem;
+    background: linear-gradient(to right top, #c84040, #f21111);
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+    border-radius: 2rem;
+
+    input,
+    textarea {
+      margin: 2rem;
+
+      &:focus {
+        outline: 2px solid black;
+      }
+    }
+
+    textarea {
+      font-family: "Montserrat", sans-serif;
+      font-size: 2rem;
+    }
+
+    &:focus {
+      background: rgb(51, 105, 107);
+    }
+  }
+}
+.word {
+  display: flex;
+  justify-content: center;
+}
+.king {
+  display: flex;
+  justify-content: center;
+}

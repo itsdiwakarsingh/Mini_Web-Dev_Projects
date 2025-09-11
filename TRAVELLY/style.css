@@ -1,0 +1,294 @@
+/*  basic*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+/*  Global style*/
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 2.6rem;
+}
+li,button,label,input,p{
+    font-size: 2rem;
+}
+h2{
+    font-size: 4.8rem;
+}
+h3{
+    font-size: 3rem;
+    font-weight: normal;
+}
+h4,h5{
+    font-size: 2.8rem;
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+button{
+    padding:2rem 6rem;
+    background: #4c6e97;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: background 0.5s ease-in-out;
+}
+
+button:hover{
+    background: #2c4157;
+    outline-style: solid;
+   
+}
+/* Nav Section with hero */
+
+.main-head{
+    background: #131c27; 
+    color: rgb(255, 255, 255);
+    top: 0%;
+    position: sticky;
+    z-index: 3;
+}
+nav{
+    
+    display: flex;
+    width:90%;
+    margin:auto;
+    padding: 2rem;
+    min-height: 10vh;
+    align-items: center;
+    flex-wrap: wrap;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem; 
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+#Logo{
+    flex: 2 1 40rem; 
+    font-family: 'Pattaya', sans-serif;
+    font-weight: 400;
+}
+.hero{
+    min-height: 90vh;
+   background: linear-gradient(rgba(0,0,0,0.5),transparent),url("/img/landing-page.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction:column ;
+   justify-content:center;
+   align-items: center;
+   text-align: center;
+}
+.hero h3{
+    padding: 5rem;
+}
+
+/* LOCATION SECTION  */
+
+#location{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),transparent),url("/img/new-york-page.png");
+    background-size:cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.location-header{
+    width: 90%;
+    margin: auto;
+}
+.location-header h2{
+    padding:1rem 0rem;
+    text-decoration: underline;
+    text-decoration-thickness:0.5rem;
+   
+}
+.location-header h3{
+    padding:4rem 0rem ;
+}
+.cloud{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    pointer-events: none;
+}
+.moving-cloud-1{
+    animation: cloudAnimation 3s infinite alternate ease-in-out;
+    
+}
+.moving-cloud-2{
+    top: 10%;
+    z-index: -1;
+    opacity: 1;
+    animation: cloudAnimation 3.4s infinite alternate ease-in-out;
+
+}
+@keyframes cloudAnimation {
+    from{
+         transform:translate(10%, -10%);
+    }
+     to{
+         transform:translate(0%, 0%);
+     }
+}
+/* Benifita section */
+
+.benifits-head{
+    background: #343c44;
+    padding: 3rem;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+.benifits-head h3{
+    padding: 1rem;
+}
+.cards{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    min-height: 70vh;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.card{ 
+    text-align: center ;
+    flex: 1 1 25rem;
+    min-height: 20vh;
+    margin: 2rem 5rem;
+    box-shadow: 0px 10px 10px rgba( 0,0,0, 0.1), 0px 20px 20px rgba( 0, 0 , 0, 0.1 );
+   
+}
+.card img{
+    max-width: 50%;
+}
+.card h4{
+    padding: 1rem;
+}
+.card p{
+    padding: 1em;
+}
+.card-icon{
+    background: #27394e;
+}
+
+/* CONTACT */
+#contact{
+    min-height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5),transparent),url("/img/contact-mountain.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.from-wrapper{
+    background: rgba(19, 28, 39 ,0.8);
+    width: 60%;
+    color: rgb(255, 255, 255);
+    border-radius:20px ;
+}
+.from-head{
+    text-align: center;
+    padding: 4rem;
+}
+.email-from {
+    padding: 3rem;
+    text-align: center;
+}
+.form-wrapper label{
+    margin: 0rem 3rem;
+}
+.from-wrapper button{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 8rem;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.form-wrapper input{
+    padding: 1rem 3rem;
+}
+footer{
+    color: rgb(255, 255, 255);
+    background: rgba(19 , 28, 39, 1);
+}
+.footer-wrapper{
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+
+}
+footer h5{
+    flex: 1 1 40rem;
+}
+footer ul{
+    display: flex;
+    list-style: none;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*MEDIA QUARRY*/ 
+
+@media screen and (max-width: 932px){
+    html{
+        font-size: 45%;
+    }
+ nav{
+     text-align: center;
+ }
+#Logo{
+    padding: 2rem;
+}
+.cloud{
+    height: 40rem;
+    pointer-events: none;
+}
+.moving-cloud-1{
+   top: 0%;
+    z-index: -0.9;
+}
+.moving-cloud-2{
+    top: 10%;
+    z-index: -1;
+}
+.location-header h3{
+    background: rgba(19,28,39,0.9);
+   -webkit-text-fill-color: white;
+}
+.from-wrapper{
+    width: 100%;
+}
+footer{
+    text-align: center;
+}
+footer{
+    padding: bottom 3rem; ;
+}
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.extra{
+    background: url(./bg.jpg);
+    height: 100vh;
+    background-position: bottom left;
+    animation: background 20s linear infinite;
+}
+.car{
+    position: absolute;
+    left: 20vh;
+    bottom: -5vh;
+    width: 30vh;
+}
+.bike{
+    position: absolute;
+    left: 100vh;
+    bottom: 5vh;
+    width: 15vh;
+}
+@keyframes background {
+    from{background-position:  bottom left;}
+    to{background-position: bottom right;}
+    
+}

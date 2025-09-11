@@ -1,0 +1,80 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background:linear-gradient(to left bottom, #fa08fa,#6c04f3);
+}
+.fig{
+    width: 70%;
+  
+    font-family: "Raleway";
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.fig img{
+    width: 100%;
+}
+.fig:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(8, 209, 236, 0.877);
+    opacity: 0.5;
+    transform: translateY(100%);
+    transition: all 0.25s;
+    transition-delay: 0.25s;
+}
+.fig:hover:before{
+    transform: translateY(0);
+    transition-delay: 0s;
+
+}
+.fig .caption {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-20px);
+    opacity: 0;
+    transition:  all 0.25s;
+}
+.fig:hover .caption{
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.3s;
+}
+.fig h3, .fig h5 {
+    margin: 0;
+    letter-spacing: 1px;
+}
+.fig h1{
+    font-size: 3rem;
+    background: -webkit-gradient(linear, left top, right top, from(#fa7508), to(#ffffff));
+    background: linear-gradient(left, #fa7508,#ffffff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-transform: uppercase;
+    font-weight: 400;
+    text-shadow: white;
+    
+    margin-bottom: 5px;
+}
+.fig h2 {
+    background-color: rgb(245, 241, 10);
+    padding: 3px 5px;
+    color: tomato;
+}

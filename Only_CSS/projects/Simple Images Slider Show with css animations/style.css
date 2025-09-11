@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right top, #d165df, #b36ced);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  width: 100%;
+  height: 100%;
+  background: url(img-1.jpg);
+  animation: change-bg 10s linear infinite;
+  background-size: cover;
+  background-position: center;
+}
+
+@keyframes change-bg {
+  0% {
+    background: url(img-1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  20% {
+    background: url(img-1.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  25% {
+    background: url(img-2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  45% {
+    background: url(img-2.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  50% {
+    background: url(img-3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  70% {
+    background: url(img-3.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  75% {
+    background: url(img-4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  100% {
+    background: url(img-4.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+}

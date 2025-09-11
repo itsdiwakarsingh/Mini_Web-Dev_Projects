@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #222;
+}
+.containter{
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.containter .cigarette{
+  transform-style: preserve-3d;
+}
+.containter .cigarette span{
+    position: absolute;
+    color: rgb(9, 191, 18);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 0.76em;
+    text-shadow: 0 20px 5px rgba(0, 0, 0, 0.25);
+    transform: translate(-50%, -50%);
+}
+.containter .cigarette span i
+{
+    
+    color: #3560ec;
+}
+.containter .cigarette span i:first-child{
+    content: 'L';
+    color: rgb(45, 24, 187);
+    text-transform: lowercase;
+}
+.containter .cigarette span i:last-child{
+    color: #f00;
+}

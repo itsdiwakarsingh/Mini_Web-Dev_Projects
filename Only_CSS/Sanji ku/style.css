@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background:linear-gradient(to right top, #d165df,#b36ced);
+   }
+   
+   .container {
+     position: relative;
+     width: 100%;
+     height: 100%;
+     overflow: hidden;
+   }
+   
+   .text {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     color: #f3cb53;
+     text-transform: uppercase;
+     font-size: 45px;
+     border-top: 5px solid #F2921D;
+     border-bottom: 5px solid #F2921D;
+   }
+   
+   .square{
+     position: absolute;
+     bottom: -100px;
+     background-color: #ffffff;
+     animation: boxes 10s infinite ease-in-out;
+   }
+   
+   .square:nth-child(1) {
+     width: 75px;
+     height: 75px;
+     border-radius: 10px;
+     left: 7%;
+   }
+   
+   .square:nth-child(2) {
+     width: 65px;
+     height: 65px;
+     left: 15%;
+     border-radius: 10px;
+     animation-delay: 4s;
+   }
+   
+   .square:nth-child(3) {
+     width: 82px;
+     height: 82px;
+     left: 45%;
+     border-radius: 10px;
+     animation-delay: 8s;
+   }
+   
+   .square:nth-child(4) {
+     width: 70px;
+     height: 70px;
+     left: 55%;
+     border-radius: 10px;
+     animation-delay: 2s;
+   }
+   
+   .square:nth-child(5) {
+     width: 60px;
+     height: 60px;
+     left: 27%;
+     border-radius: 10px;
+     animation-delay: 6s;
+   }
+   
+   .square:nth-child(6) {
+     width: 55px;
+     height: 55px;
+     left: 60%;
+     border-radius: 10px;
+     animation-delay: 4s;
+   }
+   
+   .square:nth-child(7) {
+     width: 90px;
+     height: 90px;
+     left: 95%;
+     border-radius: 7px;
+     animation-delay: 9s;
+   }
+   
+   .square:nth-child(8) {
+     width: 70px;
+     height: 70px;
+     left: 75%;
+     border-radius: 50px;
+     animation-delay: 4s;
+   }
+   
+   .square:nth-child(9) {
+     width: 45px;
+     height: 45px;
+     left: 10%;
+     border-radius: 5px;
+     animation-delay: 7s;
+   }
+   
+   .square:nth-child(10) {
+     width: 55px;
+     height: 55px;
+     left: 60%;
+     border-radius: 3px;
+     animation-delay: 7s;
+    
+   }
+   @keyframes boxes {
+     0% { bottom: -100px }
+     100% { bottom: 100%;
+     transform: rotate(180deg);
+     opacity: 0; }
+   }
