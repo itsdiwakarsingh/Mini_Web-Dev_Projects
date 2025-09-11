@@ -50,3 +50,36 @@ cd Mini_Web-Dev_Projects/<project-folder-name>
 
 # Run it!
 Open index.html in your browser 🚀
+```
+---
+
+# 📂 Folder Structure
+```
+opencv_projects/
+├── .vscode/
+├── Face/
+│   └── face_mesh.py
+├── Hand/
+│   ├── hand_pose.py
+│   ├── virtual_painter.py
+│   └── virtual_mouse.py
+├── README.md
+└── requirements.txt
+```
+---
+
+# 🤝 Contributing
+
+Contributions are welcome! 🎉
+
+To contribute:
+
+  1.🍴 Fork this repo
+  
+  2.🌱 Create a new branch (git checkout -b feature-name)
+  
+  3.🛠 Commit your changes (git commit -m "Added feature")
+  
+  4.🚀 Push (git push origin feature-name)
+  
+  5.🔃 Open a Pull Request
